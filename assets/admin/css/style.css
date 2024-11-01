@@ -1,0 +1,15 @@
+.form-group label {
+    display: block;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+.form-group textarea, 
+.form-group input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.wp-core-ui .quicktags-toolbar input.button.button-small {
+    width: auto;
+}

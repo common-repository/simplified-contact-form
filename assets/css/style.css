@@ -1,0 +1,150 @@
+.scf-form .acceptance-checkbox {
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    width: auto;
+    margin-bottom: 0px;
+}
+.scf-form .acceptance-checkbox + a {
+    color: #333;
+}
+.scf-required {
+    color: red;
+}
+.scf-form .scf-acceptance {
+    font-size: 15px;
+    line-height: 1.3em;
+    font-weight: normal;
+    margin: 0px 0px 0px;
+}
+.scf-loading-container {
+  display: none;
+}
+.scf-notification-container {
+  margin: 15px 0px;
+}
+.scf-notification-container p {
+  margin: 0px;
+}
+.scf-notification-container.failed {
+  background: #e74c3c;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 15px 0px;
+  color: white;
+}
+.scf-notification-container.sent {
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 15px 0px;
+  background: #055828;
+  color: #fff;
+}
+.scf-notification-container.sent p{
+  color: white;
+}
+.scf-form .form-group {
+  position: relative;
+}
+.scf-form .scf-form-error {
+    background: #e74c3c;
+    color: wheat;
+    width: 100%;
+    display: block;
+    padding: 1px 10px;
+    font-size: 10px;
+    position: absolute;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    z-index: 999;
+    bottom: -10px;
+}
+.scf-form .scf-form-error .error-label {
+  text-transform: lowercase;
+}
+.scf-form .scf-form-error .error-label .scf-required {
+    display: none;
+}
+.lds-ellipsis {
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+
+.lds-ellipsis div {
+  position: absolute;
+  top: 27px;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: #333;
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+
+.lds-ellipsis div:nth-child(1) {
+  left: 6px;
+  animation: lds-ellipsis1 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(2) {
+  left: 6px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(3) {
+  left: 26px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(4) {
+  left: 45px;
+  animation: lds-ellipsis3 0.6s infinite;
+}
+
+@keyframes lds-ellipsis1 {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes lds-ellipsis3 {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(0);
+  }
+}
+
+@keyframes lds-ellipsis2 {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(19px, 0);
+  }
+}
+
+.scf-form input,
+.scf-form textarea {
+    font-size: 14px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.scf-form .scf-form-group textarea {
+    resize: vertical;
+}
+.scf-form .scf-form-group{
+    position: relative;
+}
+.scf-form input[type=button] {
+    width: auto;
+    margin: 15px 0px;
+}
